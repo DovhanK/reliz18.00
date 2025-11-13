@@ -1,0 +1,99 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    background-color: rgb(59, 78, 181);
+}
+header img{
+    width: 1000px;
+    height: 900px;
+    position: fixed;
+    right: 740px;
+    top: -30px;
+}   
+header h1{
+    color: hwb(208 84% 1%);
+    position: absolute;
+    top: 280px;
+    right: 150px;
+    text-align: center;
+}
+.photoone img{
+    width:100px ;
+    height: 100px;
+    position: relative;
+    top: 400px;
+    left:350px ;
+}
+.one{
+    color: hwb(208 84% 1%);
+    text-align: left;
+    position: relative;
+    top: 400px;
+    left:180px ;
+    width: 500px;
+}
+.phototwo img{
+    width:100px ;
+    height: 100px;
+    position: relative;
+    top: 400px;
+    left:350px ;
+}
+.two{
+    color: hwb(208 84% 1%);
+    text-align: left;
+    position: relative;
+    top: 400px;
+    left:180px ;
+    width: 500px;
+}
+.photothree img{
+    width:100px ;
+    height: 100px;
+    position: relative;
+    top: 400px;
+    left:350px ;
+}
+.three{
+    color: hwb(208 84% 1%);
+    text-align: left;
+    position: relative;
+    top: 400px;
+    left:180px ;
+    width: 500px;    
+}
+.photofour img{
+    width:100px ;
+    height: 100px;
+    position: relative;
+    top: 400px;
+    left:350px ;
+}
+.four{
+    color: hwb(208 84% 1%);
+    text-align: left;
+    position: relative;
+    top: 400px;
+    left:180px ;
+    width: 500px;   
+}
+.photoonefife img{
+    width:100px ;
+    height: 100px;
+    position: relative;
+    top: 400px;
+    left:350px ;
+}
+.fife{
+    color: hwb(208 84% 1%);
+    text-align: left;
+    position: relative;
+    top: 400px;
+    left:180px ;
+    width: 500px; 
+}
+
+
+
