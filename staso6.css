@@ -1,84 +1,90 @@
 body {
     font-family: sans-serif;
     background-color: black;
-    color:white;
-}
-
-header div{
-    background-image:linear-gradient(to top,#A600FF,#4ACCFF) ;
-    position:absolute;
-    top:0px;
-    left: 0px;
-    width:100%;
- color: white;
- text-align: center;
-}
-
-
-main{
-    background-image:linear-gradient(to top,#A600FF,#4ACCFF) ;
-    padding:50px;
-    position:absolute;
-    top:100px;
     color: white;
-    left: 0px;
-    width:100%;
-    
+    margin: 0;
+    padding: 0;
 }
 
-
-
-footer {
-      display: flex;
-      justify-content: space-between;
-       background-image:linear-gradient(to top,#A600FF,#4ACCFF) ;
-      padding: 20px;
-      flex-wrap: wrap;
-     position:absolute;
-     top:850px;
+/* HEADER */
+header div {
+    background-image: linear-gradient(to top, #A600FF, #4ACCFF);
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    }
-    
-    footer img{
-      width: 50px;
-    }  
-    
-    footer h3 {
-      margin-bottom: 10px;
-      color: white;
-    }
-    footer h4 {
-      margin: 5px 0;
-      font-weight: normal;
-      color: white;
-      cursor: pointer;
-    }
-
-    footer p{
-      color: white;
-
-    }
-
-    footer a{
-      text-decoration: none;
-      color: white;
-    }
-
-
-    
-
-iframe{
-    position:absolute;
-    top:290px;
-    width: 100%;
-}
-
-.de{
-    background-image:linear-gradient(to top,#A600FF,#4ACCFF) ;
-     position:absolute;
-    top:200px;
+    height: 100px; /* ДОДАНО */
     color: white;
-    left: 0px;
-    width:100%;
     text-align: center;
-} 
+    padding-top: 25px; /* щоб текст був по центру */
+}
+
+/* MAIN */
+main {
+    background-image: linear-gradient(to top, #A600FF, #4ACCFF);
+    padding: 40px;
+    position: absolute;
+    top: 120px; /* трохи нижче хедера */
+    left: 0;
+    width: 100%;
+    height: 350px; /* ДОДАНО, щоб блок не з’їжджав */
+}
+
+/* IFRAME */
+iframe {
+    position: absolute;
+    top: 490px; /* нижче main */
+    width: 100%;
+    height: 300px; /* ДОДАНО */
+    border: none;
+}
+
+/* Блок .de */
+.de {
+    background-image: linear-gradient(to top, #A600FF, #4ACCFF);
+    position: absolute;
+    top: 820px; /* нижче iframe */
+    color: white;
+    left: 0;
+    width: 100%;
+    height: 120px; /* ДОДАНО */
+    text-align: center;
+    padding-top: 40px;
+}
+
+/* FOOTER */
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(to top, #A600FF, #4ACCFF);
+    padding: 20px;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 960px; /* під .de */
+    width: 100%;
+    height: 180px; /* ДОДАНО */
+}
+
+footer img {
+    width: 50px;
+}
+
+footer h3 {
+    margin-bottom: 10px;
+    color: white;
+}
+
+footer h4 {
+    margin: 5px 0;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+footer p {
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
